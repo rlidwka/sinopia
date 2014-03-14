@@ -32,10 +32,13 @@ dependencies:
 
 devDependencies:
   rimraf: '>= 2.2.5'
-  mocha: '>= 1.17.0'
+  mocha: '>= 1.18.0'
 
   # linting tools
   eslint: '>= 0.4.2'
+
+  # validation suite for the npm registry protocol
+  'registry-validator': '>=0.1.0'
 
   # for debugging memory leaks, it'll be require()'d if
   # installed, but I don't want it to be installed everytime
@@ -51,7 +54,7 @@ keywords:
   - server
 
 scripts:
-  test: mocha ./test/functional ./test/unit
+  test: mocha ./test/functional ./test/unit ./test/validation
   lint: eslint -c ./.eslint.yaml ./lib
 
 # we depend on streams2 stuff
