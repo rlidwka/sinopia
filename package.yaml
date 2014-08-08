@@ -32,6 +32,9 @@ dependencies:
   minimatch: '>= 0.2.14'
   bunyan: '>= 0.22.1'
   mkdirp: '>= 0.3.5'
+  ldapauth-fork: ">= 2.2.12"
+  ldapjs: ">= 0.7.1"
+  lodash: ">= 2.4.1"
   handlebars: '1.x.x'
   helpers.less: 'git://github.com/bpeacock/helpers.less.git'
   highlight.js: '^8.0.0'
