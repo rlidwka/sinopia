@@ -1,6 +1,5 @@
 `sinopia` - a private/caching npm repository server
 
-
 [![npm version badge](https://img.shields.io/npm/v/sinopia.svg)](https://www.npmjs.org/package/sinopia)
 [![travis badge](http://img.shields.io/travis/rlidwka/sinopia.svg)](https://travis-ci.org/rlidwka/sinopia)
 [![downloads badge](http://img.shields.io/npm/dm/sinopia.svg)](https://www.npmjs.org/package/sinopia)
