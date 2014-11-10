@@ -79,6 +79,13 @@ packages:
 # if you use nginx with custom path, use this to override links
 #url_prefix: https://dev.company.local/sinopia/
 
+# restrict the systems which my access the service by IP address.
+#ipfilter:
+#  mode: allow # 'allow' or 'deny' the IP addresses/network blocks listed in ips
+#  ips:
+#    - 127.0.0.1
+#    - 10.1.32.1/24
+
 # you can specify listen address (or simply a port)
 #listen: localhost:4873
 
