@@ -20,4 +20,5 @@ test-storage*
 !/node_modules/sinopia-htpasswd
 !/node_modules/crypt3
 !/node_modules/http-errors
+!/node_modules/express-ipfilter
 
