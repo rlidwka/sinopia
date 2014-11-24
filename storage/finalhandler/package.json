@@ -1,0 +1,712 @@
+{
+	"name": "finalhandler",
+	"versions": {
+		"0.0.0": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.0.0",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "1.0.0",
+				"escape-html": "1.0.1"
+			},
+			"devDependencies": {
+				"istanbul": "0.2.10",
+				"mocha": "~1.20.1",
+				"should": "~4.0.1",
+				"supertest": "~0.13.0"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"scripts": {
+				"test": "mocha --reporter dot test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+			},
+			"bugs": {
+				"url": "https://github.com/expressjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/expressjs/finalhandler",
+			"_id": "finalhandler@0.0.0",
+			"_shasum": "1dcd03de37b283d0593b47a327535c9490d5b246",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				}
+			],
+			"dist": {
+				"shasum": "1dcd03de37b283d0593b47a327535c9490d5b246",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.0.1",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "1.0.2",
+				"escape-html": "1.0.1"
+			},
+			"devDependencies": {
+				"istanbul": "0.2.10",
+				"mocha": "~1.20.1",
+				"should": "~4.0.1",
+				"supertest": "~0.13.0"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"scripts": {
+				"test": "mocha --reporter dot test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+			},
+			"bugs": {
+				"url": "https://github.com/expressjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/expressjs/finalhandler",
+			"_id": "finalhandler@0.0.1",
+			"dist": {
+				"shasum": "624429d98b41ab1538b21b97086a74f23b07fcd6",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.0.2",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "1.0.2",
+				"escape-html": "1.0.1"
+			},
+			"devDependencies": {
+				"istanbul": "0.2.10",
+				"mocha": "~1.20.1",
+				"should": "~4.0.1",
+				"supertest": "~0.13.0"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"scripts": {
+				"test": "mocha --reporter dot test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+			},
+			"bugs": {
+				"url": "https://github.com/expressjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/expressjs/finalhandler",
+			"_id": "finalhandler@0.0.2",
+			"dist": {
+				"shasum": "0603d875ee87d567a266692815cc8ad44fcceeda",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.0.3",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "1.0.3",
+				"escape-html": "1.0.1"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.0",
+				"mocha": "~1.20.1",
+				"should": "~4.0.1",
+				"supertest": "~0.13.0"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"scripts": {
+				"test": "mocha --reporter dot test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+			},
+			"bugs": {
+				"url": "https://github.com/expressjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/expressjs/finalhandler",
+			"_id": "finalhandler@0.0.3",
+			"dist": {
+				"shasum": "5a86b7bc4dca3d1275eb0532c81ee81d747504df",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.1.0",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "1.0.4",
+				"escape-html": "1.0.1"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.0",
+				"mocha": "~1.20.1",
+				"readable-stream": "~1.0.27",
+				"should": "~4.0.1",
+				"supertest": "~0.13.0"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"scripts": {
+				"test": "mocha --reporter dot test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+			},
+			"bugs": {
+				"url": "https://github.com/expressjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/expressjs/finalhandler",
+			"_id": "finalhandler@0.1.0",
+			"dist": {
+				"shasum": "da05bbc4f5f4a30c84ce1d91f3c154007c4e9daa",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.2.0",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "~2.0.0",
+				"escape-html": "1.0.1"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.0",
+				"mocha": "~1.21.4",
+				"readable-stream": "~1.0.27",
+				"should": "~4.0.1",
+				"supertest": "~0.13.0"
+			},
+			"files": [
+				"LICENSE",
+				"HISTORY.md",
+				"index.js"
+			],
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"scripts": {
+				"test": "mocha --reporter spec --bail --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+			},
+			"gitHead": "0e5d26695b1ab248823366018f09c058a4eaf59b",
+			"bugs": {
+				"url": "https://github.com/pillarjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/pillarjs/finalhandler",
+			"_id": "finalhandler@0.2.0",
+			"_shasum": "794082424b17f6a4b2a0eda39f9db6948ee4be8d",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "794082424b17f6a4b2a0eda39f9db6948ee4be8d",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.3.0",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "~2.0.0",
+				"escape-html": "1.0.1",
+				"on-finished": "~2.1.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.2",
+				"mocha": "~1.21.4",
+				"readable-stream": "~1.0.27",
+				"should": "~4.0.1",
+				"supertest": "~0.13.0"
+			},
+			"files": [
+				"LICENSE",
+				"HISTORY.md",
+				"index.js"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --reporter spec --bail --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+			},
+			"gitHead": "8cc4b0afde5ab1fdb1f42bcdf80fd1d9dd4e1528",
+			"bugs": {
+				"url": "https://github.com/pillarjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/pillarjs/finalhandler",
+			"_id": "finalhandler@0.3.0",
+			"_shasum": "581afe4d28da13491487f1c0ef9c29ef883e6e59",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "581afe4d28da13491487f1c0ef9c29ef883e6e59",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.3.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.3.1": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.3.1",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "~2.1.0",
+				"escape-html": "1.0.1",
+				"on-finished": "~2.1.0"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.2",
+				"mocha": "~1.21.5",
+				"readable-stream": "~1.0.33",
+				"should": "~4.0.1",
+				"supertest": "~0.14.0"
+			},
+			"files": [
+				"LICENSE",
+				"HISTORY.md",
+				"index.js"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --reporter spec --bail --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+			},
+			"gitHead": "d7ad6d8d66316d88774171f606b78f386eadce85",
+			"bugs": {
+				"url": "https://github.com/pillarjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/pillarjs/finalhandler",
+			"_id": "finalhandler@0.3.1",
+			"_shasum": "ffda7643228678c6b088c89421a8381663961808",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ffda7643228678c6b088c89421a8381663961808",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.3.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.3.2": {
+			"name": "finalhandler",
+			"description": "Node.js final http responder",
+			"version": "0.3.2",
+			"author": {
+				"name": "Douglas Christopher Wilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/finalhandler"
+			},
+			"dependencies": {
+				"debug": "~2.1.0",
+				"escape-html": "1.0.1",
+				"on-finished": "~2.1.1"
+			},
+			"devDependencies": {
+				"istanbul": "0.3.2",
+				"mocha": "~2.0.0",
+				"readable-stream": "~1.0.33",
+				"should": "~4.1.0",
+				"supertest": "~0.14.0"
+			},
+			"files": [
+				"LICENSE",
+				"HISTORY.md",
+				"index.js"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --reporter spec --bail --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+			},
+			"gitHead": "1dc292faf576fade3b0218caab39060f4da5fe9c",
+			"bugs": {
+				"url": "https://github.com/pillarjs/finalhandler/issues"
+			},
+			"homepage": "https://github.com/pillarjs/finalhandler",
+			"_id": "finalhandler@0.3.2",
+			"_shasum": "7b389b0fd3647a6f90bd564e22624bf8a4a77fb5",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				},
+				{
+					"name": "tjholowaychuk",
+					"email": "tj@vision-media.ca"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7b389b0fd3647a6f90bd564e22624bf8a4a77fb5",
+				"tarball": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.3.2.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": [
+			"0.3.2"
+		]
+	},
+	"_distfiles": {
+		"finalhandler-0.0.0.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.0.tgz",
+			"sha": "1dcd03de37b283d0593b47a327535c9490d5b246"
+		},
+		"finalhandler-0.0.1.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.1.tgz",
+			"sha": "624429d98b41ab1538b21b97086a74f23b07fcd6"
+		},
+		"finalhandler-0.0.2.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.2.tgz",
+			"sha": "0603d875ee87d567a266692815cc8ad44fcceeda"
+		},
+		"finalhandler-0.0.3.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.0.3.tgz",
+			"sha": "5a86b7bc4dca3d1275eb0532c81ee81d747504df"
+		},
+		"finalhandler-0.1.0.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.1.0.tgz",
+			"sha": "da05bbc4f5f4a30c84ce1d91f3c154007c4e9daa"
+		},
+		"finalhandler-0.2.0.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.2.0.tgz",
+			"sha": "794082424b17f6a4b2a0eda39f9db6948ee4be8d"
+		},
+		"finalhandler-0.3.0.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.3.0.tgz",
+			"sha": "581afe4d28da13491487f1c0ef9c29ef883e6e59"
+		},
+		"finalhandler-0.3.1.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.3.1.tgz",
+			"sha": "ffda7643228678c6b088c89421a8381663961808"
+		},
+		"finalhandler-0.3.2.tgz": {
+			"url": "http://registry.npmjs.org/finalhandler/-/finalhandler-0.3.2.tgz",
+			"sha": "7b389b0fd3647a6f90bd564e22624bf8a4a77fb5"
+		}
+	},
+	"_attachments": {
+		"finalhandler-0.3.2.tgz": {
+			"shasum": "7b389b0fd3647a6f90bd564e22624bf8a4a77fb5"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "\"6U6NN3ONQP5XIP66KM9RY3588\"",
+			"fetched": 1416859359836
+		}
+	},
+	"_rev": "2-66fe73375635fe32",
+	"readme": "# finalhandler\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-image]][node-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nNode.js function to invoke as the final step to respond to HTTP request.\n\n## Installation\n\n```sh\n$ npm install finalhandler\n```\n\n## API\n\n```js\nvar finalhandler = require('finalhandler')\n```\n\n### finalhandler(req, res, [options])\n\nReturns function to be invoked as the final step for the given `req` and `res`.\nThis function is to be invoked as `fn(err)`. If `err` is falsy, the handler will\nwrite out a 404 response to the `res`. If it is truthy, an error response will\nbe written out to the `res`, and `res.statusCode` is set from `err.status`.\n\nThe final handler will also unpipe anything from `req` when it is invoked.\n\n#### options.env\n\nBy default, the environment is determined by `NODE_ENV` variable, but it can be\noverridden by this option.\n\n#### options.onerror\n\nProvide a function to be called with the `err` when it exists. Can be used for\nwriting errors to a central location without excessive function generation. Called\nas `onerror(err, req, res)`.\n\n## Examples\n\n### always 404\n\n```js\nvar finalhandler = require('finalhandler')\nvar http = require('http')\n\nvar server = http.createServer(function (req, res) {\n  var done = finalhandler(req, res)\n  done()\n})\n\nserver.listen(3000)\n```\n\n### perform simple action\n\n```js\nvar finalhandler = require('finalhandler')\nvar fs = require('fs')\nvar http = require('http')\n\nvar server = http.createServer(function (req, res) {\n  var done = finalhandler(req, res)\n\n  fs.readFile('index.html', function (err, buf) {\n    if (err) return done(err)\n    res.setHeader('Content-Type', 'text/html')\n    res.end(buf)\n  })\n})\n\nserver.listen(3000)\n```\n\n### use with middleware-style functions\n\n```js\nvar finalhandler = require('finalhandler')\nvar http = require('http')\nvar serveStatic = require('serve-static')\n\nvar serve = serveStatic('public')\n\nvar server = http.createServer(function (req, res) {\n  var done = finalhandler(req, res)\n  serve(req, res, done)\n})\n\nserver.listen(3000)\n```\n\n### keep log of all errors\n\n```js\nvar finalhandler = require('finalhandler')\nvar fs = require('fs')\nvar http = require('http')\n\nvar server = http.createServer(function (req, res) {\n  var done = finalhandler(req, res, {onerror: logerror})\n\n  fs.readFile('index.html', function (err, buf) {\n    if (err) return done(err)\n    res.setHeader('Content-Type', 'text/html')\n    res.end(buf)\n  })\n})\n\nserver.listen(3000)\n\nfunction logerror(err) {\n  console.error(err.stack || err.toString())\n}\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/finalhandler.svg?style=flat\n[npm-url]: https://npmjs.org/package/finalhandler\n[node-image]: https://img.shields.io/node/v/finalhandler.svg?style=flat\n[node-url]: http://nodejs.org/download/\n[travis-image]: https://img.shields.io/travis/pillarjs/finalhandler.svg?style=flat\n[travis-url]: https://travis-ci.org/pillarjs/finalhandler\n[coveralls-image]: https://img.shields.io/coveralls/pillarjs/finalhandler.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/pillarjs/finalhandler?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/finalhandler.svg?style=flat\n[downloads-url]: https://npmjs.org/package/finalhandler\n"
+}

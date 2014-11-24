@@ -1,0 +1,509 @@
+{
+	"name": "pull-cat",
+	"versions": {
+		"1.0.0": {
+			"name": "pull-cat",
+			"description": "concatinate pull-streams",
+			"version": "1.0.0",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-stream": "~2.8.0"
+			},
+			"devDependencies": {
+				"tape": "~0.3.3"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.0.0",
+			"dist": {
+				"shasum": "af7c87d3b9eb87360082c04033b72161d04ea91e",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.0.1",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-stream": "~2.9"
+			},
+			"devDependencies": {
+				"tape": "~0.3.3"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.0.1",
+			"dist": {
+				"shasum": "6781190ef7be7b2f0914adba268acf52c608d6fb",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.0.2",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-stream": "~2.10"
+			},
+			"devDependencies": {
+				"tape": "~0.3.3"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.0.2",
+			"dist": {
+				"shasum": "d547ab7dd7c5a0b27caf3e8614c636247dbfeb64",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.0.3",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-stream": "~2.10"
+			},
+			"devDependencies": {
+				"tape": "~0.3.3"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.0.3",
+			"dist": {
+				"shasum": "1c51a8cfaece4cce356fd570dd82c8c6baa32225",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.1.0",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-stream": "~2.10"
+			},
+			"devDependencies": {
+				"tape": "~0.3.3"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.1.0",
+			"dist": {
+				"shasum": "d062a23a63d1b08a03213bbc3ebf06d3bf64fcb4",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.1.1",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-stream": "~2.10"
+			},
+			"devDependencies": {
+				"tape": "~0.3.3"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.1.1",
+			"dist": {
+				"shasum": "18ac3fae507b718355a97ac5fedfb9b0f728187e",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.2": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.1.2",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-stream": "~2.15"
+			},
+			"devDependencies": {
+				"tape": "~0.3.3"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.1.2",
+			"dist": {
+				"shasum": "823fe8688578d91f9b66c5ed29d0dc270bd5da82",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.3",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.3": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.1.3",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"pull-stream": "~2.18",
+				"tape": "~1.0"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.1.3",
+			"dist": {
+				"shasum": "68743e44e83d3cbae91c89a4af15534e6ca7a5be",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.4": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.1.4",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-core": "~1.0.0"
+			},
+			"devDependencies": {
+				"pull-stream": "~2.18",
+				"tape": "~1.0"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"_id": "pull-cat@1.1.4",
+			"dist": {
+				"shasum": "3e849ff504b6ae402bc0a9483139313edaf9860d",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.5": {
+			"name": "pull-cat",
+			"description": "concatenate pull-streams",
+			"version": "1.1.5",
+			"homepage": "https://github.com/dominictarr/pull-cat",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/dominictarr/pull-cat.git"
+			},
+			"dependencies": {
+				"pull-core": "~1.0.0"
+			},
+			"devDependencies": {
+				"pull-stream": "~2.20",
+				"tape": "~1.0"
+			},
+			"scripts": {
+				"test": "set -e; for t in test/*.js; do node $t; done"
+			},
+			"author": {
+				"name": "Dominic Tarr",
+				"email": "dominic.tarr@gmail.com",
+				"url": "http://dominictarr.com"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/dominictarr/pull-cat/issues"
+			},
+			"_id": "pull-cat@1.1.5",
+			"dist": {
+				"shasum": "716ee45d42bb5ae4646b60fa3b8b02a6f4e20eb0",
+				"tarball": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.5.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.11",
+			"_npmUser": {
+				"name": "dominictarr",
+				"email": "dominic.tarr@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dominictarr",
+					"email": "dominic.tarr@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": [
+			"1.1.5"
+		]
+	},
+	"_distfiles": {
+		"pull-cat-1.0.0.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.0.tgz",
+			"sha": "af7c87d3b9eb87360082c04033b72161d04ea91e"
+		},
+		"pull-cat-1.0.1.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.1.tgz",
+			"sha": "6781190ef7be7b2f0914adba268acf52c608d6fb"
+		},
+		"pull-cat-1.0.2.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.2.tgz",
+			"sha": "d547ab7dd7c5a0b27caf3e8614c636247dbfeb64"
+		},
+		"pull-cat-1.0.3.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.0.3.tgz",
+			"sha": "1c51a8cfaece4cce356fd570dd82c8c6baa32225"
+		},
+		"pull-cat-1.1.0.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.0.tgz",
+			"sha": "d062a23a63d1b08a03213bbc3ebf06d3bf64fcb4"
+		},
+		"pull-cat-1.1.1.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.1.tgz",
+			"sha": "18ac3fae507b718355a97ac5fedfb9b0f728187e"
+		},
+		"pull-cat-1.1.2.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.2.tgz",
+			"sha": "823fe8688578d91f9b66c5ed29d0dc270bd5da82"
+		},
+		"pull-cat-1.1.3.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.3.tgz",
+			"sha": "68743e44e83d3cbae91c89a4af15534e6ca7a5be"
+		},
+		"pull-cat-1.1.4.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.4.tgz",
+			"sha": "3e849ff504b6ae402bc0a9483139313edaf9860d"
+		},
+		"pull-cat-1.1.5.tgz": {
+			"url": "http://registry.npmjs.org/pull-cat/-/pull-cat-1.1.5.tgz",
+			"sha": "716ee45d42bb5ae4646b60fa3b8b02a6f4e20eb0"
+		}
+	},
+	"_attachments": {
+		"pull-cat-1.1.5.tgz": {
+			"shasum": "716ee45d42bb5ae4646b60fa3b8b02a6f4e20eb0"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "\"3RNG7ST2IK0IKAXT0X3O3BS52\"",
+			"fetched": 1416859355098
+		}
+	},
+	"_rev": "2-abf747fbdc8e7e2c",
+	"readme": "# pull-cat\n\nconcatinate pull-streams\n\n# example\n\n``` js\nvar cat = require('pull-cat')\nvar pull = require('pull-stream')\ncat([pull.values([1,2,3]), pull.values([4,5,6])])\n  .pipe(...)\n```\n\nReads from the each stream until it is finished.\nIf a stream errors, stop all the streams.\n\n## License\n\nMIT\n"
+}

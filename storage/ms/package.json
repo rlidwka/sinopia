@@ -1,0 +1,400 @@
+{
+	"name": "ms",
+	"versions": {
+		"0.1.0": {
+			"name": "ms",
+			"version": "0.1.0",
+			"description": "Tiny ms conversion utility",
+			"main": "./ms",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"_id": "ms@0.1.0",
+			"dependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.106",
+			"_nodeVersion": "v0.4.12",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "f21fac490daf1d7667fd180fe9077389cc9442b2",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "ms",
+			"version": "0.2.0",
+			"description": "Tiny ms conversion utility",
+			"main": "./ms",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"_id": "ms@0.2.0",
+			"dist": {
+				"shasum": "6edfc5a063471f7bfd35a5831831c24275ce9dc5",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.2.0.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "ms",
+			"version": "0.3.0",
+			"description": "Tiny ms conversion utility",
+			"main": "./ms",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"_id": "ms@0.3.0",
+			"dist": {
+				"shasum": "03edc348d613e66a56486cfdac53bcbe899cbd61",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.3.0.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "ms",
+			"version": "0.4.0",
+			"description": "Tiny ms conversion utility",
+			"main": "./index",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"_id": "ms@0.4.0",
+			"dist": {
+				"shasum": "77ade5470b099bb2d83e232c25763c18cd6963f1",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.4.0.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.5.0": {
+			"name": "ms",
+			"version": "0.5.0",
+			"description": "Tiny ms conversion utility",
+			"main": "./index",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"_id": "ms@0.5.0",
+			"dist": {
+				"shasum": "8e52e7e1bf521f9cea30f726de958822eab0ee27",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.5.0.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.5.1": {
+			"name": "ms",
+			"version": "0.5.1",
+			"description": "Tiny ms conversion utility",
+			"main": "./index",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"component": {
+				"scripts": {
+					"ms/index.js": "index.js"
+				}
+			},
+			"_id": "ms@0.5.1",
+			"dist": {
+				"shasum": "98058c8f9c64854d1703ab92bf3f1dcc8e713b4c",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.5.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.10",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "ms",
+			"version": "0.6.0",
+			"description": "Tiny ms conversion utility",
+			"main": "./index",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"component": {
+				"scripts": {
+					"ms/index.js": "index.js"
+				}
+			},
+			"_id": "ms@0.6.0",
+			"dist": {
+				"shasum": "21dc16a7d1dc2d8ed244dc0e6a71a5c2612b623b",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.6.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.10",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "ms",
+			"version": "0.6.1",
+			"description": "Tiny ms conversion utility",
+			"main": "./index",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"component": {
+				"scripts": {
+					"ms/index.js": "index.js"
+				}
+			},
+			"_id": "ms@0.6.1",
+			"dist": {
+				"shasum": "ed57e5f3fc736e09afc85017c5c912a47bc59ab9",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.6.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.6.2": {
+			"name": "ms",
+			"version": "0.6.2",
+			"description": "Tiny ms conversion utility",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/guille/ms.js.git"
+			},
+			"main": "./index",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"component": {
+				"scripts": {
+					"ms/index.js": "index.js"
+				}
+			},
+			"bugs": {
+				"url": "https://github.com/guille/ms.js/issues"
+			},
+			"_id": "ms@0.6.2",
+			"dist": {
+				"shasum": "d89c2124c6fdc1353d65a8b77bf1aac4b193708c",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.6.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.30",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "ms",
+			"version": "0.7.0",
+			"description": "Tiny ms conversion utility",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/guille/ms.js.git"
+			},
+			"main": "./index",
+			"devDependencies": {
+				"mocha": "*",
+				"expect.js": "*",
+				"serve": "*"
+			},
+			"component": {
+				"scripts": {
+					"ms/index.js": "index.js"
+				}
+			},
+			"gitHead": "1e9cd9b05ef0dc26f765434d2bfee42394376e52",
+			"bugs": {
+				"url": "https://github.com/guille/ms.js/issues"
+			},
+			"homepage": "https://github.com/guille/ms.js",
+			"_id": "ms@0.7.0",
+			"scripts": {},
+			"_shasum": "865be94c2e7397ad8a57da6a633a6e2f30798b83",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "rauchg",
+				"email": "rauchg@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "rauchg",
+					"email": "rauchg@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "865be94c2e7397ad8a57da6a633a6e2f30798b83",
+				"tarball": "http://registry.npmjs.org/ms/-/ms-0.7.0.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": [
+			"0.7.0"
+		]
+	},
+	"_distfiles": {
+		"ms-0.1.0.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.1.0.tgz",
+			"sha": "f21fac490daf1d7667fd180fe9077389cc9442b2"
+		},
+		"ms-0.2.0.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.2.0.tgz",
+			"sha": "6edfc5a063471f7bfd35a5831831c24275ce9dc5"
+		},
+		"ms-0.3.0.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.3.0.tgz",
+			"sha": "03edc348d613e66a56486cfdac53bcbe899cbd61"
+		},
+		"ms-0.4.0.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.4.0.tgz",
+			"sha": "77ade5470b099bb2d83e232c25763c18cd6963f1"
+		},
+		"ms-0.5.0.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.5.0.tgz",
+			"sha": "8e52e7e1bf521f9cea30f726de958822eab0ee27"
+		},
+		"ms-0.5.1.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.5.1.tgz",
+			"sha": "98058c8f9c64854d1703ab92bf3f1dcc8e713b4c"
+		},
+		"ms-0.6.0.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.6.0.tgz",
+			"sha": "21dc16a7d1dc2d8ed244dc0e6a71a5c2612b623b"
+		},
+		"ms-0.6.1.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.6.1.tgz",
+			"sha": "ed57e5f3fc736e09afc85017c5c912a47bc59ab9"
+		},
+		"ms-0.6.2.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.6.2.tgz",
+			"sha": "d89c2124c6fdc1353d65a8b77bf1aac4b193708c"
+		},
+		"ms-0.7.0.tgz": {
+			"url": "http://registry.npmjs.org/ms/-/ms-0.7.0.tgz",
+			"sha": "865be94c2e7397ad8a57da6a633a6e2f30798b83"
+		}
+	},
+	"_attachments": {
+		"ms-0.6.2.tgz": {
+			"shasum": "d89c2124c6fdc1353d65a8b77bf1aac4b193708c"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "\"735H5STM8VC1GQQ7K3AOTN8S0\"",
+			"fetched": 1416859365284
+		}
+	},
+	"_rev": "2-404edb892de1f3b6",
+	"readme": "# ms.js: miliseconds conversion utility\n\n```js\nms('2 days')  // 172800000\nms('1d')      // 86400000\nms('10h')     // 36000000\nms('2.5 hrs') // 9000000\nms('2h')      // 7200000\nms('1m')      // 60000\nms('5s')      // 5000\nms('100')     // 100\n```\n\n```js\nms(60000)             // \"1m\"\nms(2 * 60000)         // \"2m\"\nms(ms('10 hours'))    // \"10h\"\n```\n\n```js\nms(60000, { long: true })             // \"1 minute\"\nms(2 * 60000, { long: true })         // \"2 minutes\"\nms(ms('10 hours'), { long: true })    // \"10 hours\"\n```\n\n- Node/Browser compatible. Published as [`ms`](https://www.npmjs.org/package/ms) in [NPM](nodejs.org/download).\n- If a number is supplied to `ms`, a string with a unit is returned.\n- If a string that contains the number is supplied, it returns it as\na number (e.g: it returns `100` for `'100'`).\n- If you pass a string with a number and a valid unit, the number of\nequivalent ms is returned.\n\n## License\n\nMIT\n"
+}
