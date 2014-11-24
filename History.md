@@ -1,4 +1,8 @@
 
+25 Nov 2014, version 0.13.3
+
+- fix broken `es6-shim` dependency (issue [#169](https://github.com/rlidwka/sinopia/pull/169))
+
 1 Nov 2014, version 0.13.2
 
 - fix `EPERM`-related crashes on windows (issue [#67](https://github.com/rlidwka/sinopia/issues/67))
