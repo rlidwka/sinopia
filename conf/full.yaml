@@ -19,7 +19,7 @@ web:
 
   title: Sinopia
   # logo: logo.png
-  # index_file: custom.hbs
+  # template: custom.hbs
 
 auth:
   htpasswd:
