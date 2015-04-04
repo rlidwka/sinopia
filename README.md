@@ -49,7 +49,7 @@ Now you can navigate to [http://localhost:4873/](http://localhost:4873/) where y
 
 ### Docker
 
-A Sinopia docker image [is available](https://registry.hub.docker.com/u/keyvanfatehi/sinopia/)
+A Sinopia docker image [is available](https://registry.hub.docker.com/u/rnbwd/sinopia/)
 
 ### Chef
 
