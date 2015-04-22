@@ -24,6 +24,7 @@ dependencies:
   express-json5: '>=0.1.0 <1.0.0-0'
   body-parser: '>=1.9.2 <2.0.0-0'
   compression: '>=1.2.0 <2.0.0-0'
+  nocache: '>=0.3.0 <1.0.0-0'
 
   commander: '>=2.3.0 <3.0.0-0'
   js-yaml: '>=3.0.1 <4.0.0-0'
