@@ -36,7 +36,7 @@
     "mkdirp": ">=0.3.5 <1.0.0-0",
     "sinopia-htpasswd": ">= 0.4.3",
     "http-errors": ">=1.2.0",
-    "nocache": ">=0.2.0 <1.0.0.0-0"
+    "nocache": ">=0.3.0 <1.0.0.0-0"
   },
   "optionalDependencies": {
     "fs-ext": ">=0.4.1 <1.0.0-0",
