@@ -7235,6 +7235,15 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .body .main-header {
   background: #ffffff;
 }
+.body .main-header .navbar-default .navbar-nav > .open a.dropdown-toggle,
+.body .main-header .navbar-default .navbar-nav > .open a.dropdown-toggle:focus {
+  color: #fff;
+  background-color: #d9534f;
+}
+.body .main-header .navbar-default .navbar-nav > .open a:hover {
+  color: #fff;
+  background-color: #d9534f;
+}
 .body .main-header .navbar {
   margin-bottom: 0;
 }

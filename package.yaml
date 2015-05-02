@@ -44,6 +44,7 @@ dependencies:
   mkdirp: '>=0.3.5 <1.0.0-0'
   sinopia-htpasswd: '>= 0.4.3'
   http-errors: '>=1.2.0'
+  handlebars-layouts: '>=2.0.2 < 3.0.0-0'
 
   # node 0.10 compatibility, should go away soon
   readable-stream: '~1.1.0'
