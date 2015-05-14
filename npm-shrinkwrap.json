@@ -311,10 +311,10 @@
       }
     },
     "fs-ext": {
-      "version": "0.4.4",
+      "version": "0.4.5",
       "dependencies": {
         "nan": {
-          "version": "1.6.2"
+          "version": "1.8.4"
         }
       }
     },
