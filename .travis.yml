@@ -2,8 +2,12 @@ language: node_js
 node_js:
   - '0.10'
   - '0.12'
-  - 'iojs-1.0'
-  - 'iojs-1.6'
+  - '1'
+  - '2'
   - 'iojs'
 sudo: false
+matrix:
+  allow_failures:
+    - node_js: 'iojs'
+  fast_finish: true
 script: npm install . && npm run test-travis
