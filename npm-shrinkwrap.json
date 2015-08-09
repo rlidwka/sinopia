@@ -700,6 +700,9 @@
     },
     "sinopia-htpasswd": {
       "version": "0.4.5"
+    },
+    "handlebars-layouts": {
+      "version": "2.0.2"
     }
   }
 }
