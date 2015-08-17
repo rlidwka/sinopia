@@ -1,5 +1,9 @@
 `sinopia` - a private/caching npm repository server
 
+[![npm version badge](https://img.shields.io/npm/v/sinopia.svg)](https://www.npmjs.org/package/sinopia)		
+[![travis badge](http://img.shields.io/travis/rlidwka/sinopia.svg)](https://travis-ci.org/rlidwka/sinopia)		
+[![downloads badge](http://img.shields.io/npm/dm/sinopia.svg)](https://www.npmjs.org/package/sinopia)		
+
 It allows you to have a local npm registry with zero configuration. You don't have to install and replicate an entire CouchDB database. Sinopia keeps its own small database and, if a package doesn't exist there, it asks npmjs.org for it keeping only those packages you use.
 
 <p align="center"><img src="https://f.cloud.github.com/assets/999113/1795553/680177b2-6a1d-11e3-82e1-02193aa4e32e.png"></p>
