@@ -8,6 +8,7 @@ use Cwd 'abs_path';
 use File::Basename;
 $ENV{HOME} = dirname(abs_path( __FILE__ )) . '/.sinopia_test_env';
 system('rm -rf .sinopia_test_env ; mkdir .sinopia_test_env') and quit('fail');
+system('echo \'{"name":"sinopia_test_env"}\' >.sinopia_test_env/package.json') and quit('fail');
 chdir $ENV{HOME};
 
 use Data::Dumper;
@@ -47,4 +48,3 @@ quit("
 ==================================================================
 All tests seem to be executed successfully, nothing is broken yet.
 ==================================================================");
-
