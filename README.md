@@ -1,3 +1,7 @@
+This fork is for refactoring sinopia to allow for a pluggable datastore mechanism. The default store will be disk based, but the design will allow for a database backed store, cloud based, etc, etc, etc. 
+
+* * * 
+
 `sinopia` - a private/caching npm repository server
 
 [![npm version badge](https://img.shields.io/npm/v/sinopia.svg)](https://www.npmjs.org/package/sinopia)

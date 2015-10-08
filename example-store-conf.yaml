@@ -1,0 +1,16 @@
+store:
+  delegating-store:
+    binary: 
+      module: disk-store
+      conf:
+# This isn't used, but good idea-ish
+        dir: work
+    json:
+      clean: false
+      module: couchdb-json-store
+      username: xxx
+      password: xxx
+      host: xxx
+      port: 443
+# only using url right now. Need to fully qualifty with user/pass/host/port in url
+      url: https://user:password@host
