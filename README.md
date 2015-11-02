@@ -130,6 +130,10 @@ No CouchDB here. This application is supposed to work with zero configuration, s
 
 If you want to use a database instead, ask for it, we'll come up with some kind of a plugin system.
 
+## Use with Bower
+
+You can use Sinopia as a registry for Bower by using the [bower-sinopia-resolver](https://github.com/banno/bower-sinopia-resolver).
+
 ## Similar existing things
 
 - npm + git (I mean, using git+ssh:// dependencies) - most people seem to use this, but it's a terrible idea... *npm update* doesn't work, can't use git subdirectories this way, etc.
