@@ -39,4 +39,9 @@ describe('Parse address', function() {
   addTest('blah://4873', null)
   addTest('https://blah:4873///', null)
   addTest('unix:1234', 'http', 'unix', '1234') // not unix socket
+
+  addTest('\\\\.\\pipe\\01a96932-567e-41e8-9bed-0eba99ec769b', 'winpipe','\\\\.\\pipe\\01a96932-567e-41e8-9bed-0eba99ec769b')
+  addTest('\\\\.\\pipe', null)
+  addTest('\\\\.\\pipe\\', null)
+  addTest('\\\\.\\pipe\\foo\\bar', null)
 })
