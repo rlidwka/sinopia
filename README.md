@@ -49,7 +49,10 @@ Now you can navigate to [http://localhost:4873/](http://localhost:4873/) where y
 
 ### Docker
 
-A Sinopia docker image [is available](https://registry.hub.docker.com/u/keyvanfatehi/sinopia/)
+```Bash
+docker build -t sinopia .
+docker run -d --name sinopia -p 4873:4873 -v /path/to/sinopia-volume:/opt/sinopia/volume sinopia
+```
 
 ### Chef
 
