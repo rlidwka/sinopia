@@ -18,7 +18,7 @@ bin:
   sinopia: ./bin/sinopia
 
 dependencies:
-  express: '>=5.0.0-0 <6.0.0-0'
+  express: '^4.0.0'
 
   # express middlewares
   express-json5: '>=0.1.0 <1.0.0-0'
@@ -29,13 +29,13 @@ dependencies:
   js-yaml: '>=3.0.1 <4.0.0-0'
   cookies: '>=0.5.0 <1.0.0-0'
   request: '>=2.31.0 <3.0.0-0'
-  async: '>=0.9.0 <1.0.0-0'
-  es6-shim: '0.21.x'
-  semver: '>=2.2.1 <5.0.0-0'
-  minimatch: '>=0.2.14 <2.0.0-0'
+  async: '>=1.5.0 <2.0.0-0'
+  es6-shim: '^0.34.1'
+  semver: '^5.0.0'
+  minimatch: '^3.0.0'
   bunyan: '>=0.22.1 <2.0.0-0'
-  handlebars: '2.x'
-  highlight.js: '8.x'
+  handlebars: '^4.0.5'
+  highlight.js: '^9.1.0'
   lunr: '>=0.5.2 <1.0.0-0'
   render-readme: '>=0.2.1'
   jju: '1.x'
@@ -46,22 +46,22 @@ dependencies:
   http-errors: '>=1.2.0'
 
   # node 0.10 compatibility, should go away soon
-  readable-stream: '~1.1.0'
+  readable-stream: '^2.0.5'
 
 optionalDependencies:
   # those are native modules that could fail to compile
   # and unavailable on windows
-  fs-ext: '>=0.4.1 <1.0.0-0'
-  crypt3: '>=0.1.6 <1.0.0-0' # for sinopia-htpasswd
+  fs-ext: '>=0.5.0 <1.0.0-0'
+  crypt3: '>=0.2.0 <1.0.0-0' # for sinopia-htpasswd
 
 devDependencies:
   #
   # Tools required for testing
   #
   rimraf: '>=2.2.5 <3.0.0-0'
-  bluebird: '2 >=2.9'
+  bluebird: '^3.1.1'
 
-  mocha: '2 >=2.2.3'
+  mocha: '^2.0.0'
 
   #
   # Linting tools
@@ -75,12 +75,12 @@ devDependencies:
   #
   # Tools required to build static files
   #
-  browserify: '7.x'
+  browserify: '^13.0.0'
   browserify-handlebars: '1.x'
   grunt: '>=0.4.4 <1.0.0-0'
   grunt-cli: '*'
-  grunt-browserify: '>=2.0.8 <3.0.0-0'
-  grunt-contrib-less: '>=0.11.0 <1.0.0-0'
+  grunt-browserify: '^4.0.0'
+  grunt-contrib-less: '^1.0.0'
   grunt-contrib-watch: '>=0.6.1 <1.0.0-0'
 
   # for building static/main.js,
