@@ -1377,6 +1377,21 @@
       "version": "1.0.0",
       "from": "unix-crypt-td-js@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/unix-crypt-td-js/-/unix-crypt-td-js-1.0.0.tgz"
-    }
+  },
+    "sinopia-htpasswd": {
+      "version": "0.4.5"
+    },
+	"emailjs": {
+		"version": ">=1.0.4"
+	},
+    "swig": {
+		"version": "^1.4.2"
+	},
+    "lodash": {
+		"version": "^4.6.1"
+	},
+    "moment": {
+		"version": "^2.12.0"
+	}
   }
 }

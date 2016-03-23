@@ -26,6 +26,7 @@ packages:
     # scoped packages
     access: $all
     publish: $authenticated
+    proxy: npmjs
 
   '*':
     # allow all users (including non-authenticated users) to read and
@@ -46,4 +47,3 @@ packages:
 logs:
   - {type: stdout, format: pretty, level: http}
   #- {type: file, path: sinopia.log, level: info}
-

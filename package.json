@@ -1,5 +1,5 @@
 {
-  "name": "verdaccio",
+  "name": "verdaccio-email",
   "version": "1.4.0",
   "description": "Private npm repository server",
   "author": {
@@ -39,7 +39,11 @@
     "request": "^2.72.0",
     "semver": "^5.1.0",
     "symbol": "^0.2.1",
-    "unix-crypt-td-js": "^1.0.0"
+    "unix-crypt-td-js": "^1.0.0",
+	"emailjs": ">=1.0.4",
+    "swig": "^1.4.2",
+    "lodash": "^4.6.1",
+    "moment": "^2.12.0"
   },
   "devDependencies": {
     "rimraf": "^2.5.2",
