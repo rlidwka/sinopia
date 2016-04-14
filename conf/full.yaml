@@ -125,3 +125,7 @@ logs:
 # and the highest semver is placed instead.
 #ignore_latest_tag: false
 
+# Configure plugins that can register custom middlewares
+#middlewares:
+# plugin-name:
+#   setting: true
