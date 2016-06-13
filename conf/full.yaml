@@ -17,7 +17,7 @@ web:
   # this has a lot of issues, e.g. no auth yet, so use at your own risk
   #enable: true
 
-  title: Sinopia
+  title: DR NPM registry
   # logo: logo.png
   # template: custom.hbs
 
