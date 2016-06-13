@@ -1,3 +1,15 @@
+## DR office updates:
+
+- add 1 more config.yaml property: localFirst
+```yaml
+localFirst: true
+```
+Sinopia will not sync up with remote servers when `npm install <package>`, unless that version doesn't exist in local storage.
+> Note: No latest version information will be synced from remote servers if there is a matched version present in local storage.
+
+This speeds up `npm install` and avoids error when the remove server is offline.
+
+-----
 `verdaccio` is a fork of `sinopia`. It aims to keep backwards compatibility with `sinopia`, while keeping up with npm changes.
 
 `sinopia` - a private/caching npm repository server
@@ -146,4 +158,3 @@ If you want to use a database instead, ask for it, we'll come up with some kind 
 - [gemfury](http://www.gemfury.com/l/npm-registry) and others - those are closed-source cloud services, and I'm not in a mood to trust my private code to somebody (security through obscurity yeah!)
 - npm-registry-proxy, npm-delegate, npm-proxy - those are just proxies...
 - Is there something else?
-
