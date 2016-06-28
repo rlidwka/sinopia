@@ -1,6 +1,8 @@
 ## DR office updates:
-
-- add 1 more config.yaml property: localFirst
+June 28, 2016
+- Support environment variable `SINOPIA_CONFIG_DIR` to redefine configuration folder other than `.config/sinopia`
+	> Now we can have multiple sinopia instances on same machine with different configuration and storage directory
+- Add 1 more config.yaml property: localFirst
 ```yaml
 localFirst: true
 ```

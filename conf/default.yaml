@@ -7,6 +7,7 @@
 #
 
 # path to a directory with all packages
+localFirst: false
 storage: ./storage
 
 auth:
