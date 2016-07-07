@@ -9,6 +9,8 @@
 # path to a directory with all packages
 localFirst: false
 storage: ./storage
+listen:
+  - 0.0.0.0:4873
 
 auth:
   htpasswd:
