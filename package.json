@@ -12,7 +12,8 @@
   },
   "main": "index.js",
   "bin": {
-    "verdaccio": "./bin/verdaccio"
+    "verdaccio": "./bin/verdaccio",
+	"sinopia": "./bin/sinopia"
   },
   "dependencies": {
     "JSONStream": "^1.1.1",
