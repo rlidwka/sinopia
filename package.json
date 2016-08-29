@@ -1,6 +1,6 @@
 {
-  "name": "verdaccio-email",
-  "version": "1.5.0",
+  "name": "verdaccio",
+  "version": "2.0.0",
   "description": "Private npm repository server",
   "author": {
     "name": "Alex Kocharin",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "JSONStream": "^1.1.1",
-    "async": "^2.0.0-rc.3",
+    "async": "^2.0.1",
     "body-parser": "^1.15.0",
     "bunyan": "^1.8.0",
     "commander": "^2.9.0",
