@@ -125,3 +125,5 @@ logs:
 # and the highest semver is placed instead.
 #ignore_latest_tag: false
 
+# Enable a Cache-Control max-age header
+#cache_max_size: 600
