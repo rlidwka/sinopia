@@ -11,7 +11,7 @@ storage: /verdaccio/storage
 
 auth:
   htpasswd:
-    file: /verdaccio/config/htpasswd
+    file: /verdaccio/conf/htpasswd
     # Maximum amount of users allowed to register, defaults to "+inf".
     # You can set this to -1 to disable registration.
     #max_users: 1000
@@ -26,8 +26,9 @@ packages:
     # scoped packages
     access: $all
     publish: $all
+    proxy: npmjs
 
-  '*':
+  '**':
     # allow all users (including non-authenticated users) to read and
     # publish all packages
     #
