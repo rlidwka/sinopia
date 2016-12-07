@@ -721,6 +721,10 @@
     },
     "sinopia-htpasswd": {
       "version": "0.4.5"
+    },
+    "nocache": {
+      "version": "0.3.0",
+      "from": "nocache@latest"
     }
   }
 }
