@@ -6,6 +6,10 @@
 # https://github.com/verdaccio/verdaccio/tree/master/conf
 #
 
+# Use dr component store page instead of original Verdaccio index page
+# Then to force access original Verdaccio index page by access "http://<hostname>:4873?verdaccio"
+# drComponentStore: http://localhost:14333/#/components
+
 # path to a directory with all packages
 localFirst: false
 storage: ./storage
