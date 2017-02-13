@@ -1,3 +1,10 @@
+# Depracation Notice
+
+Hi everyone, this project is **no longer mainained**.
+
+Please use [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio).
+
+----------
 `sinopia` - a private/caching npm repository server
 
 [![npm version badge](https://img.shields.io/npm/v/sinopia.svg)](https://www.npmjs.org/package/sinopia)
