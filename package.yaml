@@ -1,6 +1,6 @@
 # use "yapm install ." if you're installing this from git repository
 
-name: sinopia
+name: sinopia-email
 version: 1.4.0
 description: Private npm repository server
 
@@ -44,7 +44,10 @@ dependencies:
   mkdirp: '>=0.3.5 <1.0.0-0'
   sinopia-htpasswd: '>= 0.4.3'
   http-errors: '>=1.2.0'
-
+  emailjs: '>=1.0.4'
+  swig: '^1.4.2'
+  lodash: '^4.6.1'
+  moment: '^2.12.0'
   # node 0.10 compatibility, should go away soon
   readable-stream: '~1.1.0'
 
@@ -52,7 +55,7 @@ optionalDependencies:
   # those are native modules that could fail to compile
   # and unavailable on windows
   fs-ext: '>=0.4.1 <1.0.0-0'
-  crypt3: '>=0.1.6 <1.0.0-0' # for sinopia-htpasswd
+  #crypt3: '>=0.1.6 <1.0.0-0' # for sinopia-htpasswd
 
 devDependencies:
   #

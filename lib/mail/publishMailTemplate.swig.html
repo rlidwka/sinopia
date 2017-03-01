@@ -1,0 +1,24 @@
+<h2 style="color: rgb(94,157,52)">Packages are published</h2>
+{{time}}
+
+<h3><a href="http://{{address}}">NPM registry server http://{{address}}</a></h3>
+
+<table width="100%" style="border-spacing:0;border-collapse:collapse;">
+	<thead>
+		<tr>
+			<th class="head" style="padding: 11px;text-align: left;background-color: rgb(94,157,52);color: white;font-weight: 300;font-size: 13px;">Package Name</th>
+			<th class="head" style="padding: 11px;text-align: left;background-color: rgb(94,157,52);color: white;font-weight: 300;font-size: 13px;">Version</th>
+			<th class="head" style="padding: 11px;text-align: left;background-color: rgb(94,157,52);color: white;font-weight: 300;font-size: 13px;">Description</th>
+			<th class="head" style="padding: 11px;text-align: left;background-color: rgb(94,157,52);color: white;font-weight: 300;font-size: 13px;">Published By</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for package in packages %}<tr>
+			<td style="padding: 11px;white-space:nowrap">{{package.name}}</td>
+			<td style="padding: 11px;">{{package.version}}</td>
+			<td style="padding: 11px;">{{package.desc}}</td>
+			<td style="padding: 11px;">{{package.user}}</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>

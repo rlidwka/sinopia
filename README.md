@@ -1,10 +1,24 @@
+## DR office updates:
+June 28, 2016
+- Support environment variable `SINOPIA_CONFIG_DIR` to redefine configuration folder other than `.config/sinopia`
+	> Now we can have multiple sinopia instances on same machine with different configuration and storage directory
+- Add 1 more config.yaml property: localFirst
+```yaml
+localFirst: true
+```
+Sinopia will not sync up with remote servers when `npm install <package>`, unless that version doesn't exist in local storage.
+> Note: No latest version information will be synced from remote servers if there is a matched version present in local storage.
+
+This speeds up `npm install` and avoids error when the remove server is offline.
+
+-----
+`verdaccio` is a fork of `sinopia`. It aims to keep backwards compatibility with `sinopia`, while keeping up with npm changes.
+
 `sinopia` - a private/caching npm repository server
 
-[![npm version badge](https://img.shields.io/npm/v/sinopia.svg)](https://www.npmjs.org/package/sinopia)
-[![travis badge](http://img.shields.io/travis/rlidwka/sinopia.svg)](https://travis-ci.org/rlidwka/sinopia)
-[![downloads badge](http://img.shields.io/npm/dm/sinopia.svg)](https://www.npmjs.org/package/sinopia)
+[![travis badge](http://img.shields.io/travis/verdaccio/verdaccio.svg)](https://travis-ci.org/verdaccio/verdaccio)
 
-It allows you to have a local npm registry with zero configuration. You don't have to install and replicate an entire CouchDB database. Sinopia keeps its own small database and, if a package doesn't exist there, it asks npmjs.org for it keeping only those packages you use.
+It allows you to have a local npm registry with zero configuration. You don't have to install and replicate an entire CouchDB database. Verdaccio keeps its own small database and, if a package doesn't exist there, it asks npmjs.org for it keeping only those packages you use.
 
 <p align="center"><img src="https://f.cloud.github.com/assets/999113/1795553/680177b2-6a1d-11e3-82e1-02193aa4e32e.png"></p>
 
@@ -34,8 +48,8 @@ It allows you to have a local npm registry with zero configuration. You don't ha
 ```bash
 # installation and starting (application will create default
 # config in config.yaml you can edit later)
-$ npm install -g sinopia
-$ sinopia
+$ npm install -g verdaccio
+$ verdaccio
 
 # npm configuration
 $ npm set registry http://localhost:4873/
@@ -49,7 +63,23 @@ Now you can navigate to [http://localhost:4873/](http://localhost:4873/) where y
 
 ### Docker
 
-A Sinopia docker image [is available](https://registry.hub.docker.com/u/keyvanfatehi/sinopia/)
+To use the pre-built docker image:
+
+`docker pull verdaccio/verdaccio`
+
+To build your own image:
+
+`docker build -t verdaccio .`
+
+To run the docker container:
+
+```
+docker run -it --rm --name verdaccio -p 4873:4873 \
+  -v /<path to verdaccio directory>/conf:/verdaccio/conf \
+  -v /<path to verdaccio directory>/storage:/verdaccio/storage \
+  -v /<path to verdaccio directory>/local_storage:/verdaccio/local_storage \
+  verdaccio
+```
 
 ### Chef
 
@@ -69,7 +99,7 @@ When you start a server, it auto-creates a config file.
 npm adduser --registry http://localhost:4873/
 ```
 
-This will prompt you for user credentials which will be saved on the Sinopia server.
+This will prompt you for user credentials which will be saved on the Verdaccio server.
 
 ## Using private packages
 
@@ -79,7 +109,7 @@ It is recommended that you define a prefix for your private packages, for exampl
 
 ## Using public packages from npmjs.org
 
-If some package doesn't exist in the storage, server will try to fetch it from npmjs.org. If npmjs.org is down, it serves packages from cache pretending that no other packages exist. Sinopia will download only what's needed (= requested by clients), and this information will be cached, so if client will ask the same thing second time, it can be served without asking npmjs.org for it.
+If some package doesn't exist in the storage, server will try to fetch it from npmjs.org. If npmjs.org is down, it serves packages from cache pretending that no other packages exist. Verdaccio will download only what's needed (= requested by clients), and this information will be cached, so if client will ask the same thing second time, it can be served without asking npmjs.org for it.
 
 Example: if you successfully request express@3.0.1 from this server once, you'll able to do that again (with all it's dependencies) anytime even if npmjs.org is down. But say express@3.0.0 will not be downloaded until it's actually needed by somebody. And if npmjs.org is offline, this server would say that only express@3.0.1 (= only what's in the cache) is published, but nothing else.
 
@@ -91,7 +121,7 @@ There's two options here:
 
 1. You want to create a separate fork and stop synchronizing with public version.
 
-   If you want to do that, you should modify your configuration file so sinopia won't make requests regarding this package to npmjs anymore. Add a separate entry for this package to *config.yaml* and remove `npmjs` from `proxy_access` list and restart the server.
+   If you want to do that, you should modify your configuration file so verdaccio won't make requests regarding this package to npmjs anymore. Add a separate entry for this package to *config.yaml* and remove `npmjs` from `proxy` list and restart the server.
 
    When you publish your package locally, you should probably start with version string higher than existing one, so it won't conflict with existing package in the cache.
 
@@ -101,7 +131,7 @@ There's two options here:
 
 ## Compatibility
 
-Sinopia aims to support all features of a standard npm client that make sense to support in private repository. Unfortunately, it isn't always possible.
+Verdaccio aims to support all features of a standard npm client that make sense to support in private repository. Unfortunately, it isn't always possible.
 
 Basic features:
 
@@ -117,7 +147,7 @@ Advanced package control:
 User management:
 
 - Registering new users (npm adduser {newuser}) - supported
-- Transferring ownership (npm owner add {user} {pkg}) - not supported, sinopia uses its own acl management system
+- Transferring ownership (npm owner add {user} {pkg}) - not supported, verdaccio uses its own acl management system
 
 Misc stuff:
 
@@ -138,4 +168,3 @@ If you want to use a database instead, ask for it, we'll come up with some kind 
 - [gemfury](http://www.gemfury.com/l/npm-registry) and others - those are closed-source cloud services, and I'm not in a mood to trust my private code to somebody (security through obscurity yeah!)
 - npm-registry-proxy, npm-delegate, npm-proxy - those are just proxies...
 - Is there something else?
-
