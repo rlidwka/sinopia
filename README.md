@@ -53,7 +53,7 @@ A Sinopia docker image [is available](https://registry.hub.docker.com/u/keyvanfa
 
 ### Chef
 
-A Sinopia Chef cookbook [is available at Opscode community](http://community.opscode.com/cookbooks/sinopia) source: https://github.com/BarthV/sinopia-cookbook
+A Sinopia Chef cookbook [is available on the Chef Supermarket](https://supermarket.chef.io/cookbooks/sinopia) source: https://github.com/BarthV/sinopia-cookbook
 
 ### Puppet
 
